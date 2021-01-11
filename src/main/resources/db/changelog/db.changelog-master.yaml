@@ -1,0 +1,127 @@
+databaseChangeLog:
+
+- changeSet:
+      id: criacao-tabela-pessoa
+      author: jose.luiz
+      changes:
+      - sqlFile:
+            encoding: utf8
+            path: sqls/20200106-criacao-tabela-pessoa.sql
+            relativeToChangelogFile: true
+
+- changeSet:
+      id: criacao-tabela-usuario
+      author: jose.luiz
+      changes:
+      - sqlFile:
+            encoding: utf8
+            path: sqls/20200106-criacao-tabela-usuario.sql
+            relativeToChangelogFile: true
+
+- changeSet:
+      id: criacao-tabela-permissao
+      author: jose.luiz
+      changes:
+      - sqlFile:
+            encoding: utf8
+            path: sqls/20200106-criacao-tabela-permissao.sql
+            relativeToChangelogFile: true
+
+- changeSet:
+      id: criacao-tabela-usuario-permissao
+      author: jose.luiz
+      changes:
+      - sqlFile:
+            encoding: utf8
+            path: sqls/20200106-criacao-tabela-permissao-usuario.sql
+            relativeToChangelogFile: true
+
+- changeSet:
+      id: inserir-dados-usuario-permissao-e-permissao-usuario
+      author: jose.luiz
+      changes:
+      - sqlFile:
+            encoding: utf8
+            path: sqls/20200106-inserir-dados-usuario-permissao-e-permissao-usuario.sql
+            relativeToChangelogFile: true
+
+- changeSet:
+      id: criacao-tabela-contato
+      author: jose.luiz
+      changes:
+      - sqlFile:
+            encoding: utf8
+            path: sqls/20210106-criacao-tabela-contato.sql
+            relativeToChangelogFile: true
+
+- changeSet:
+      id: criacao-tabela-estado
+      author: jose.luiz
+      changes:
+      - sqlFile:
+            encoding: utf8
+            path: sqls/20200106-criacao-tabela-estado.sql
+            relativeToChangelogFile: true
+
+- changeSet:
+      id: inserir-dados-estado
+      author: jose.luiz
+      changes:
+      - sqlFile:
+            encoding: utf8
+            path: sqls/20200106-inserir-dados-estado.sql
+            relativeToChangelogFile: true
+
+- changeSet:
+      id: criacao-tabela-municipio
+      author: jose.luiz
+      changes:
+      - sqlFile:
+            encoding: utf8
+            path: sqls/20200106-criacao-tabela-municipio.sql
+            relativeToChangelogFile: true
+
+- changeSet:
+      id: inserir-dados-municipio
+      author: jose.luiz
+      changes:
+      - sqlFile:
+            encoding: utf8
+            path: sqls/20200106-inserir-dados-municipio.sql
+            relativeToChangelogFile: true
+
+- changeSet:
+      id: alterar-tabela-pessoa
+      author: jose.luiz
+      changes:
+      - sqlFile:
+            encoding: utf8
+            path: sqls/20200106-alterar-tabela-pessoa.sql
+            relativeToChangelogFile: true
+
+- changeSet:
+      id: criar-novas-permissoes-e-inserir-novas-permissoes
+      author: jose.luiz
+      changes:
+      - sqlFile:
+            encoding: utf8
+            path: sqls/20200106-criar-novas-permissoes-e-inserir-novas-permissoes.sql
+            relativeToChangelogFile: true
+
+- changeSet:
+      id: inserir-dados-usuario
+      author: jose.luiz
+      changes:
+      - sqlFile:
+            encoding: utf8
+            path: sqls/20200106-inserir-dados-usuario.sql
+            relativeToChangelogFile: true
+
+- changeSet:
+      id: inserir-permissao-dashboard
+      author: jose.luiz
+      changes:
+      - sqlFile:
+            encoding: utf8
+            path: sqls/20200106-inserir-permissao-dashboard.sql
+            relativeToChangelogFile: true
