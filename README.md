@@ -5,6 +5,8 @@ git clone https://github.com/luizbsilva/gestao-dados.git
 
 Instalando as Dependências
 Desntro da pasta do projeto
+cd gestao-dados
+
 Caso o sistema Operacional seja Windows abrir o PowerShel
 mvn install
 
@@ -18,7 +20,7 @@ Alterar o nome do aquivo application.properties.exemplo para application.propert
 ###Alterar os campos para conexao com o banco ###{{USUARIO_POSTAGRES}} = usuario do banco no qual a aplicação vai conectar ###{{SENHA_USUARIO_POSTGRES}} = senha do usuario do banco no qual a aplicação vai conectar
 
 Neste mesmo projeto já se encontra o projeto front-end
-apos esta na pasta do projeto navegar ate src/main/angular/
+apos estar na pasta do projeto navegar ate cd src/main/angular/
 
 Instalando as Dependências
 npm install
