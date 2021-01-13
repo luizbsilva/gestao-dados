@@ -1,4 +1,4 @@
-Desafio - ITSS
+Desafio
 1. Passos para começar
 Clonando o Repositório
 git clone https://github.com/luizbsilva/gestao-dados.git
